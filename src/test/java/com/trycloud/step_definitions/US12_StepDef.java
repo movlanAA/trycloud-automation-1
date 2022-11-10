@@ -1,7 +1,6 @@
 package com.trycloud.step_definitions;
 
-import com.trycloud.pages.BasePage;
-import com.trycloud.pages.US12_ModulePage;
+import com.trycloud.pages.US12_Page;
 import com.trycloud.utilities.ConfigurationReader;
 import com.trycloud.utilities.Driver;
 import io.cucumber.java.en.Given;
@@ -9,9 +8,10 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class US12_StepDef  {
+public class US12_StepDef {
 
-    US12_ModulePage us12ModulePage = new US12_ModulePage();
+
+    US12_Page us12ModulePage = new US12_Page();
 
     @Given("user on the dashboard page")
     public void user_on_the_dashboard_page() {
@@ -21,7 +21,7 @@ public class US12_StepDef  {
     }
     @When("the user clicks the {string} module")
     public void theUserClicksTheModule(String talkModule) {
-        US12_ModulePage.talkModule.click();
+        US12_Page.talkModule.click();
 
     }
 
@@ -38,6 +38,5 @@ public class US12_StepDef  {
 
 
 }
-
 
 
