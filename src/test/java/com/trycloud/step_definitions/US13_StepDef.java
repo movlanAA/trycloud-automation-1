@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 
-public class US13_Contacts_Verification extends BasePage {
+public class US13_StepDef extends BasePage {
     US13_Page us13Page = new US13_Page();
    // LoginPage loginPage = new LoginPage();
 
