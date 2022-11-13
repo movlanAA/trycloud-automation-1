@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import javax.xml.transform.Source;
 
 public class US6_StepDef {
-
+/*
     US6_Page us6_page = new US6_Page();
     LocalTime myObj = LocalTime.now();
     //  WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 5);
@@ -94,5 +94,7 @@ public void verifyTheFileDisplayedOnPage(){
     }else{
         System.out.println("False");
     }
+
+ */
 }
 

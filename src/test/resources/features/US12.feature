@@ -2,7 +2,7 @@ Feature: As a user, I should be able to access to Contacts module.
   User Story :
   As a user, I should be able to access to Contacts module.
 
-  @wip @US12
+
   Scenario:  verify user access to Talks module
     Given user on the dashboard page
     When the user clicks the "Talk" module

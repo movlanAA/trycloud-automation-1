@@ -34,11 +34,11 @@ public class US5_StepDef {
         BrowserUtils.waitFor(3);
         us5_page.fileBtn.click();
     }
-    @When ("the user clicks action-icon from any file on the page")
-    public void  clickActionsIcon(){
+    @When("the user clicks action-icon  from any file on the page")
+    public void theUserClicksActionIconFromAnyFileOnThePage() {
+
         BrowserUtils.waitFor(3);
         us5_page.actionIcon.click();
-
     }
     @And("user choose the \"Add to favorites\" option")
     public void addToFavorites(){
@@ -57,7 +57,6 @@ public class US5_StepDef {
         System.out.println("True");
 
     }
-
 }
 
 

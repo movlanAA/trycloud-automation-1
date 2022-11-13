@@ -33,7 +33,7 @@ public class US6_Page {
     @FindBy(xpath =  "//a[@class='nav-icon-favorites svg']")
     public WebElement clickFavoritesSubModule;
 
-    @FinBy(xpath =  "//a[@class='icon-starred']")
+    @FindBy(xpath =  "//a[@class='icon-starred']")
     public WebElement emptyFavoritesPage;
 
     @FindBy(xpath = "//a[@class='button new']")
